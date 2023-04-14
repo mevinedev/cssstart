@@ -1,0 +1,62 @@
+/* use a selector eg p{ } that has property:value; declarations on it, 
+allows a max of 3 lines
+ 
+FOR element selectors, use the elements used in the html eg in <p>...</p> will be p{property:value;}
+for class, use a dot before the class name eg for
+<p class = "blue"> ... </p>, or <div class="blue">...</div> use .blue { property:value; } 
+ for ID selectors, use hash sign before id name, then {property:value; }
+ eg <div id="name">...</div> will have #name { color:blue; }
+ 
+grouping selectors, you separate seletors wwith commas
+eg div, .blue { color:blue ;} for <p class="blue">...</p><p>..</p><div>..</div>
+
+ */
+
+
+
+ .header {
+    color: blueviolet;
+    text-align: center;
+    background-color: aquamarine;
+    opacity: .6;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+#article1 {
+    font-size: 20px;
+    background-color: blueviolet;
+    color:palevioletred;
+    font-weight: bold;
+    font-style: inherit;
+}
+
+div {
+    color: dodgerblue;
+    font-weight: bolder;
+    opacity: .7;
+    background-color: yellow;
+              
+}
+
+.aside{
+    font-style: italic;
+    opacity: .6;
+    color: fuchsia;
+
+}
+
+/*embed code in a html document, in this case, embedded in the semantics.html document */
+/*combining selectors: element with class selector (selector.class)
+child (direct) selector (selector>selector)
+descendant selector (selector selector) */
+
+
+
+
+ 
+
+
+
