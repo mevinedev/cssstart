@@ -10,7 +10,8 @@ Margin - Clears an area outside the border. The margin is transparent */
     padding: 50px;
     margin: 20px;
     background-color: cyan;
-    overflow: scroll; /*allows you to scroll in the page, you can also set overflow to auto, to put scroll automatically when needed*/ 
+    overflow: scroll; 
+    /*allows you to scroll in the page, you can also set overflow to auto, to put scroll automatically when needed*/ 
     
   }
 
@@ -23,7 +24,7 @@ body{
     padding: 0;
     background-color: rgb(178, 32, 134);
     box-sizing: border-box;
+
+/*properties defined in this tag are applied to the whole body tag except when they are overiden by more specific properties as defined within the tag*/
 }
-
-
   
